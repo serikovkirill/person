@@ -9,7 +9,7 @@ public:
 	Person();
 	Person(std::string surname, std::string name, int d, int m, int y);//
 	~Person();
-	void getFi();
+	void getFi();//
 	void getBirth();
 	void Out1();
 	void Out2();

@@ -27,18 +27,18 @@ void Person::Out2() {
 	b = y - a;
 	c = m + 12 * a - 2;
 	t = 7000 + (d + b + b / 4 - b / 100 + b / 400 + (31 * c) / 12);
-	if (t % 7 == 1) { std::cout << "Ð¿Ð¾Ð½ÐµÐ´ÐµÐ»ÑŒÐ½Ð¸Ðº"; }
-	if (t % 7 == 2) { std::cout << "Ð²Ñ‚Ð¾Ñ€Ð½Ð¸Ðº"; }
-	if (t % 7 == 3) { std::cout << "ÑÑ€ÐµÐ´Ð°"; }//
-	if (t % 7 == 4) { std::cout << "Ñ‡ÐµÑ‚Ð²ÐµÑ€Ð³"; }
-	if (t % 7 == 5) { std::cout << "Ð¿ÑÑ‚Ð½Ð¸Ñ†Ð°"; }
-	if (t % 7 == 6) { std::cout << "ÑÑƒÐ±Ð±Ð¾Ñ‚Ð°"; }
-	if (t % 7 == 0) { std::cout << "Ð²Ð¾ÑÐºÑ€ÐµÑÐµÐ½ÑŒÐµ"; }
+	if (t % 7 == 1) { std::cout << "ïîíåäåëüíèê"; }
+	if (t % 7 == 2) { std::cout << "âòîðíèê"; }
+	if (t % 7 == 3) { std::cout << "ñðåäà"; }//
+	if (t % 7 == 4) { std::cout << "÷åòâåðã"; }
+	if (t % 7 == 5) { std::cout << "ïÿòíèöà"; }
+	if (t % 7 == 6) { std::cout << "ñóááîòà"; }
+	if (t % 7 == 0) { std::cout << "âîñêðåñåíüå"; }
 }
 void Person::Out1() {
 	getFi();
 	std::cout << ':'<<' ';
-	int daycount1 = 2022 * 365 + 3 * 30 + 20;
+	int daycount1 = 2022 * 365 + 3 * 30 + 20;//
 	int daycount2 = y * 365 + m * 30 + d;
-	std::cout << (daycount1 - daycount2) / 365<<' '<<"Ð¿Ð¾Ð»Ð½Ñ‹Ñ… Ð»ÐµÑ‚";
+	std::cout << (daycount1 - daycount2) / 365<<' '<<"ïîëíûõ ëåò";
 }
